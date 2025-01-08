@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+
+    import React, { useState, useEffect, useRef } from 'react';
     import { useParams } from 'react-router-dom';
     import { ComponentCategory, Component } from '../../types';
     import { mockComponents } from '../../data/mockComponents';
@@ -768,15 +769,4 @@ import React, { useState, useEffect, useRef } from 'react';
                       <div>
                         <p className="text-green-600 text-sm font-medium">EN STOCK</p>
                       </div>
-                      <span className="text-xl font-bold text-cyan-600">${component.price}</span>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      );
-    };
-
-    export default ComponentCategoryPage;
+                      <span className="text-xl font-bold text
